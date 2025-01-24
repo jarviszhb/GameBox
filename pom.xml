@@ -22,6 +22,7 @@
         <module>game-box-controller</module>
         <module>game-box-service</module>
         <module>game-box-dao</module>
+        <module>game-box-start</module>
     </modules>
 
     <properties>
