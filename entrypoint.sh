@@ -14,8 +14,8 @@ cd /home/devbox/project/
 # maven打包
 mvn clean package -Dmaven.test.skip=true
 
-# 启动应用，game-box-controller是主应用模块
+# 启动应用，game-box-start是主应用模块
 exec java $JAVA_OPTS \
     -Djava.security.egd=file:/dev/./urandom \
     -Dspring.profiles.active=$SPRING_PROFILES_ACTIVE \
-    -jar /home/devbox/project/game-box-controller/target/game-box-controller-0.0.1-SNAPSHOT.jar
+    -jar /home/devbox/project/game-box-start/target/game-box-start-0.0.1-SNAPSHOT.jar
